@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+
+
+body {
+    background-color: black;
+    font-family: helvetica;
+    font-size: 22px;
+    color: seashell;
+    opacity: 0.9;
+    text-align: center;
+}
+
+.nav{
+    width: 100%;
+    min-height: 69px;
+    top: 0;
+    border-bottom: 1px solid seashell;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    background-color: black;
+}
+
+.nav img {
+    height: 50px;
+    margin-left: 10px;
+}
+
+.nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin-right: 10px;
+}
+
+.nav ul li {
+    margin: 0 10px;
+}
+
+.nav ul li a {
+    color: seashell;
+}
+
+#mission {
+    display: flex;
+    background-image: url(Images/img-mission-background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 700px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.statement {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: 1200px;
+    background-color: black;
+}
+
+.flex-container-items {
+    width: 1000px;
+    display: flex;
+    margin: auto;
+    flex-flow: row wrap;
+    text-align: center;
+    justify-content: center;
+}
+
+#main {
+    margin-top: 80px;
+}
+
+.item img {
+    height: 200px;
+    width: 300px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    }
+
+#parent-location {
+    display: flex;
+    height: 500px;
+    width: 1200px;
+    align-items: center;
+    justify-content: center;
+    margin: 80px auto;
+    background-image: url(Images/img-locations-background.jpg);
+    background-position: center;
+}
+
+.location-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.location {
+    display: flex;
+    background-color: black;
+    width: 300px;
+    height: 300px;
+    align-items: center;
+    text-align: center;
+    flex-flow: column;
+    justify-content: space-evenly;
+    margin: none;
+    max-width: 1050px;
+    opacity: 1;
+    padding: 10px;
+    margin: 20px;
+}
+
+.footer {
+    display: flex;
+    align-items: flex-start;
+    padding-left: 20px;
+}
